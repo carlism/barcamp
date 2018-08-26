@@ -15,8 +15,19 @@ use Mix.Config
 # which you typically run after static files are built.
 config :barcamp, BarcampWeb.Endpoint,
   load_from_system_env: true,
-  url: [host: "example.com", port: 80],
+  # http: [port: {:system, "PORT"}], # Uncomment this line if you are running Phoenix 1.2
+  server: true, # Without this line, your app will not start the web server!
+  secret_key_base: "${SECRET_KEY_BASE}",
+  url: [host: "puny-scaly-ox.gigalixirapp.com", port: 80],
   cache_static_manifest: "priv/static/cache_manifest.json"
+
+# Configure your database
+config :barcamp, Barcamp.Repo,
+  adapter: Ecto.Adapters.Postgres,
+  url: "${DATABASE_URL}",
+  database: "",
+  ssl: true,
+  pool_size: 1 # Free tier db only allows 1 connection
 
 # Do not print debug messages in production
 config :logger, level: :info
@@ -58,19 +69,3 @@ config :logger, level: :info
 #
 #     config :barcamp, BarcampWeb.Endpoint, server: true
 #
-
-config :barcamp, BarcampWeb.Endpoint,
-  load_from_system_env: true,
-  # http: [port: {:system, "PORT"}], # Uncomment this line if you are running Phoenix 1.2
-  server: true, # Without this line, your app will not start the web server!
-  secret_key_base: "${SECRET_KEY_BASE}",
-  url: [host: "puny-scaly-ox.gigalixirapp.com", port: 80],
-  cache_static_manifest: "priv/static/cache_manifest.json"
-
-# Configure your database
-config :barcamp, Barcamp.Repo,
-  adapter: Ecto.Adapters.Postgres,
-  url: "${DATABASE_URL}",
-  database: "",
-  ssl: true,
-  pool_size: 1 # Free tier db only allows 1 connection
