@@ -1,3 +1,5 @@
 <div class="jumbotron">
   <h2><%= gettext "Welcome to %{name}!", name: "Barcamp Schedules" %></h2>
 </div>
+
+<span><%= link "Event List", to: schedule_event_path(@conn, :index) %></span>

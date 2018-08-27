@@ -1,0 +1,5 @@
+<img style="float:left" src="<%= @event.image_url %>">
+
+<%= @event.name %><br>
+<%= @event.description %><br>
+<%= @event.site_url %>

@@ -43,6 +43,10 @@ defmodule BarcampWeb.Router do
     post("/", UserController, :delete)
   end
 
+  scope "/schedule", BarcampWeb.Schedule, as: :schedule do
+    pipe_through [:browser, :guardian]
+    resources "/events", EventController
+  end
   # Other scopes may use custom stacks.
   # scope "/api", BarcampWeb do
   #   pipe_through :api

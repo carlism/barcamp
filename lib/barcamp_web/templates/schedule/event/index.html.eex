@@ -1,0 +1,24 @@
+<h2>Listing Events</h2>
+
+<table class="table">
+  <thead>
+    <tr>
+      <th></th>
+      <th>Name</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+<%= for event <- @events do %>
+    <tr>
+      <td><img src="<%= event.image_url %>"></td>
+      <td><%= link event.name, to: schedule_event_path(@conn, :show, event), class: "btn btn-default btn-xs" %></td>
+      <td><%= event.description %><p><%= event.site_url %></td>
+    </tr>
+<% end %>
+  </tbody>
+</table>
+
+<%= if current_user(@conn) do %>
+<span><%= link "New Event", to: schedule_event_path(@conn, :new) %></span>
+<% end %>
