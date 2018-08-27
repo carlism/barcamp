@@ -20,7 +20,7 @@ defmodule Barcamp.Mixfile do
   def application do
     [
       mod: {Barcamp.Application, []},
-      extra_applications: [:logger, :runtime_tools]
+      extra_applications: [:logger, :runtime_tools, :timex_ecto]
     ]
   end
 
@@ -41,7 +41,15 @@ defmodule Barcamp.Mixfile do
       {:phoenix_live_reload, "~> 1.0", only: :dev},
       {:gettext, "~> 0.11"},
       {:cowboy, "~> 1.0"},
-      {:distillery, "~> 2.0.0"}
+      {:distillery, "~> 2.0.0"},
+      
+      # For datetime formating
+      {:timex_ecto, "~> 3.3"},
+
+      # For authentication
+      {:bcrypt_elixir, "~> 1.0"},
+      {:comeonin, "~>4.0"},
+      {:guardian, "~> 1.0"},
     ]
   end
 
@@ -55,7 +63,7 @@ defmodule Barcamp.Mixfile do
     [
       "ecto.setup": ["ecto.create", "ecto.migrate", "run priv/repo/seeds.exs"],
       "ecto.reset": ["ecto.drop", "ecto.setup"],
-      "test": ["ecto.create --quiet", "ecto.migrate", "test"]
+      test: ["ecto.create --quiet", "ecto.migrate", "test"]
     ]
   end
 end

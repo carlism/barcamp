@@ -56,3 +56,8 @@ config :barcamp, Barcamp.Repo,
   database: "barcamp_dev",
   hostname: "localhost",
   pool_size: 10
+
+config :barcamp, BarcampWeb.Guardian.Tokenizer,
+  issuer: "barcamp",
+  secret_key: "our random string"
+                

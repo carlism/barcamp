@@ -16,7 +16,7 @@
       <header class="header">
         <nav role="navigation">
           <ul class="nav nav-pills pull-right">
-            <li><a href="http://www.phoenixframework.org/docs">Get Started</a></li>
+             <%= render(__MODULE__, "login_items.html", conn: @conn) %>
           </ul>
         </nav>
         <span class="logo"></span>

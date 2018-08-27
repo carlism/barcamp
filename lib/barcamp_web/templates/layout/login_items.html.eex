@@ -1,0 +1,8 @@
+<li>
+  <%= if is_nil @conn.assigns[:current_user] do %>
+    <li><%= link gettext("Sign Up"), to: signup_user_path(@conn, :new) %></li>
+    <li><%= link gettext("Log In"), to: auth_user_path(@conn, :new) %></li>
+  <% else %>
+    <%= link gettext("Logout"), to: user_path(@conn, :delete), method: :post%>
+  <% end %>
+</li>

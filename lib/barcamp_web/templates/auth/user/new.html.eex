@@ -1,0 +1,3 @@
+<h2>Login</h2>
+
+<%= render BarcampWeb.Signup.UserView, "_form.html", Map.put(assigns, :action, auth_user_path(@conn, :create)) %>

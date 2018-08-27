@@ -8,15 +8,39 @@ defmodule BarcampWeb.Router do
     plug :protect_from_forgery
     plug :put_secure_browser_headers
   end
+  
+  pipeline :ensure_auth do
+    plug Guardian.Plug.EnsureAuthenticated
+  end
+  
+  pipeline :guardian do
+    plug BarcampWeb.Guardian.Plug
+    plug BarcampWeb.Guardian.CurrentUserPlug
+  end
 
   pipeline :api do
     plug :accepts, ["json"]
   end
 
   scope "/", BarcampWeb do
-    pipe_through :browser # Use the default browser stack
+    pipe_through [:browser, :guardian]
 
     get "/", PageController, :index
+  end
+
+  scope "/signup", BarcampWeb.Signup, as: :signup do
+    pipe_through [:browser, :guardian]
+    resources "/users", UserController, only: [:new, :create]
+  end
+  
+  scope "/login", BarcampWeb.Auth, as: :auth do
+    pipe_through [:browser, :guardian]
+    resources "/", UserController, only: [:new, :create]
+  end
+
+  scope "/logout", BarcampWeb.Auth do
+    pipe_through [:browser, :guardian, :ensure_auth]
+    post("/", UserController, :delete)
   end
 
   # Other scopes may use custom stacks.

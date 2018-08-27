@@ -17,3 +17,8 @@ config :barcamp, Barcamp.Repo,
   database: "barcamp_test",
   hostname: "localhost",
   pool: Ecto.Adapters.SQL.Sandbox
+
+config :barcamp, BarcampWeb.Guardian.Tokenizer,
+  issuer: "barcamp",
+  secret_key: "our random string"
+    
