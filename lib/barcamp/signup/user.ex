@@ -9,8 +9,8 @@ defmodule Barcamp.Signup.User do
   )
 
   schema "users" do
-    field :email, :string
-    field :password, :string
+    field(:email, :string)
+    field(:password, :string)
 
     timestamps()
   end
@@ -22,19 +22,20 @@ defmodule Barcamp.Signup.User do
     |> validate_required([:email, :password])
     |> unique_constraint(:email)
     |> validate_exclusion(
-         :password,
-         @bad_passwords,
-         message: "That password is too common.")
+      :password,
+      @bad_passwords,
+      message: "That password is too common."
+    )
     |> validate_length(:password, min: 8)
     |> put_pass_hash()
   end
-  
+
   defp put_pass_hash(%{valid?: true, changes: params} = changeset) do
-    password = Comeonin.Bcrypt.hashpwsalt(params[:password])
+    password = Bcrypt.hash_pwd_salt(params[:password])
     change(changeset, password: password)
   end
 
   defp put_pass_hash(changeset) do
     change(changeset, password: "")
   end
-end 
+end

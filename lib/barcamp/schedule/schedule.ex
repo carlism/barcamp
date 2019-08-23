@@ -35,7 +35,12 @@ defmodule Barcamp.Schedule do
       ** (Ecto.NoResultsError)
 
   """
-  def get_event!(id), do: Repo.get!(Event, id)
+  def get_event!(id) do 
+    Event
+    |>where(id: ^id)
+    |>preload([:event_dates])
+    |>Repo.one!
+  end
 
   @doc """
   Creates a event.

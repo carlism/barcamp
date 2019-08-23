@@ -1,0 +1,27 @@
+alias :mnesia, as: Mnesia
+
+Mnesia.create_schema([:"node1@HQSML-145393", :"node2@HQSML-145393"])
+
+Mnesia.info()
+
+Mnesia.start()
+
+Mnesia.transaction( fn ->  
+Mnesia.write({Person, 1, "Seymour Skinner", "Principal"})      
+Mnesia.write({Person, 2, "Homer Simpson", "Safety Inspector"})      
+Mnesia.write({Person, 3, "Moe Szyslak", "Bartender"})      
+Mnesia.write({Person, 4, "Marge Simpson", "home maker"})
+Mnesia.write({Person, 5, "Hans Moleman", "Ex-Mayor"})
+Mnesia.write({Person, 6, "Monty Burns", "Businessman"})
+Mnesia.write({Person, 7, "Waylon Smithers", "Executive assistant"})
+end )
+
+
+Mnesia.create_table(Person, [attributes: [:id, :name, :job], disc_copies: [:"node1@HQSML-145393", :"node2@HQSML-145393"]])
+
+Mnesia.transaction( fn -> Mnesia.match_object({Person, :_, :_, :_}) end )
+
+Mnesia.transaction( fn ->  Mnesia.write({Person, 8, "Bart Simpson", "Houligan"})  end )
+
+Mnesia.transaction( fn ->  Mnesia.write({Person, 9, "Lisa Simpson", "Jazz Sax Player"})  end )
+

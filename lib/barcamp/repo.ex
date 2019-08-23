@@ -1,5 +1,5 @@
 defmodule Barcamp.Repo do
-  use Ecto.Repo, otp_app: :barcamp
+  use Ecto.Repo, otp_app: :barcamp, adapter: Ecto.Adapters.Postgres
 
   @doc """
   Dynamically loads the repository url from the
