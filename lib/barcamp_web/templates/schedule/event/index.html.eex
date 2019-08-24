@@ -11,7 +11,7 @@
   <tbody>
 <%= for event <- @events do %>
     <tr>
-      <td><img src="<%= event.image_url %>"></td>
+      <td><img height="50" src="<%= event.image_url %>"></td>
       <td><%= link event.name, to: schedule_event_path(@conn, :show, event), class: "btn btn-default btn-xs" %></td>
       <td><%= event.description %><p><%= event.site_url %></td>
     </tr>

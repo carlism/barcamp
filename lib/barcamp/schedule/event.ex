@@ -2,14 +2,14 @@ defmodule Barcamp.Schedule.Event do
   use Ecto.Schema
   import Ecto.Changeset
 
-
   schema "events" do
-    field :description, :string
-    field :image_url, :string
-    field :name, :string
-    field :site_url, :string
-    has_many :event_dates, Barcamp.Schedule.EventDate
-    
+    field(:description, :string)
+    field(:image_url, :string)
+    field(:name, :string)
+    field(:site_url, :string)
+    field(:stylesheet, :string)
+    has_many(:event_dates, Barcamp.Schedule.EventDate)
+
     timestamps()
   end
 

@@ -18,7 +18,9 @@ defmodule Barcamp.Schedule do
 
   """
   def list_events do
-    Repo.all(Event)
+    Event
+    |> order_by(desc: :inserted_at, desc: :id)
+    |> Repo.all()
   end
 
   @doc """
@@ -35,11 +37,11 @@ defmodule Barcamp.Schedule do
       ** (Ecto.NoResultsError)
 
   """
-  def get_event!(id) do 
+  def get_event!(id) do
     Event
-    |>where(id: ^id)
-    |>preload([:event_dates])
-    |>Repo.one!
+    |> where(id: ^id)
+    |> preload([:event_dates])
+    |> Repo.one!()
   end
 
   @doc """

@@ -1,0 +1,1982 @@
+name,site_url,image_url,inserted_at,updated_at,description,stylesheet
+BarCamp Philly,http://www.barcampphilly.org/,http://www.barcampphilly.org/images/barcamp_badge_250px.png,2011-04-17 14:56:56,2011-04-17 14:56:56,,
+HealthCamp Philadelphia,http://healthcampphila.org/,http://healthcampphila.org/wp/wp-content/themes/healthcamp/images/logo.png,2011-04-17 14:56:56,2011-04-17 14:56:56,,
+HealthCamp Boston,http://www.healthcampboston.org/,http://barcamp.org/f/1238128577/HealthCampBostonSocial-Pharmer2009-04-21.png,2011-04-17 14:56:56,2011-04-17 14:56:56,,
+FashionCamp NYC,http://www.fashioncamp.org/,http://www.blogfest.it/wp-content/uploads/2008/08/logo-fashion-camp.png,2011-04-17 14:56:56,2011-04-17 14:56:56,,
+BarCamp Philly II,http://www.barcampphilly.org/,http://eventbrite-s3.s3.amazonaws.com/eventlogos/451445/422200814.png,2011-04-17 14:56:56,2011-04-17 14:56:56,,
+TrendCamp Philly,http://trendcamp.org/,http://trendcamp.org/wp-content/uploads/2010/01/trendcamp-300x82.png,2011-04-17 14:56:56,2011-04-17 14:56:56,,
+BarCamp Harrisburg,http://www.barcamphbg.org/,http://www.barcamphbg.org/wp-content/themes/barcamphbg/img/barcamphbg.png,2011-04-17 14:56:56,2011-04-17 14:56:56,,
+BarCamp News Innovation,http://bcniphilly.com/,http://bcniphilly.com/wp-content/uploads/2010/01/BCNIheader1.png,2011-04-17 14:56:56,2011-04-17 14:56:56,,
+Supernova Hub,http://supernovahub.com/,http://supernovahub.com/wp-content/themes/Supernova/images/sn-logo.jpg,2011-04-17 14:56:56,2011-04-17 14:56:56,,
+BarCamp Philadelphia,http://www.barcampphilly.org/,http://evbdn.eventbrite.com/s3-s3/eventlogos/451445/422200814-2.png,2011-04-17 14:56:56,2011-04-17 14:56:56,,
+BarCamp NewsInnovation,http://bcniphilly.com/,http://bcniphilly.com/wp-content/uploads/2011/01/bar_camp_transparent-copy1.png,2011-04-25 15:52:20.033165,2011-04-25 15:52:20.033165,One-day national unconference on journalism innovation and the future of news as explored by practitioners and friends,
+BohConf BarCamp,http://www.bohconf.com/,http://a0.twimg.com/profile_images/872671877/nerdy_boh_02_reasonably_small.png,2011-05-16 16:05:12.419903,2011-05-16 16:05:12.419903,,
+BarCamp Philadelphia 2011,http://www.barcampphilly.org/,http://evbdn.eventbrite.com/s3-s3/eventlogos/451445/422200814-2.png,2011-10-19 18:36:53.019735,2011-10-19 18:36:53.019735,,
+BarCamp Philly 2013,http://www.barcampphilly.org/,http://2013.barcampphilly.org/images/logo-barcampphilly6@2x.png,2012-11-10 02:29:14.317536,2013-11-09 16:17:37.26771,,"body, body #header, body #footer {
+	background: #dbb23f;
+	color: white;
+    width: 100%;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 0.85em;
+}
+
+strong {
+	font-weight: 600;
+}
+body #header .menu_item {
+	margin: 0;
+	padding: 3px 10px 3px 10px;
+  	background-color: rgba(173, 127, 16, 0.721569);
+}
+body #header .menu_item a {
+  	color: white;
+}
+body #footer a {
+  	color: white;
+}
+body #content {
+  	background-color: #f8f3e5;
+  	color: #482c1c;
+}
+
+body #content {
+	display: inherit;
+	float: left;
+	margin-right: 0;
+	width: initial;
+    padding-left: 40px;
+	padding-right: 40px;
+}
+
+#content .event_block, #content table.schedule th {
+	border: none;
+	background-image: none;
+	-webkit-box-shadow: none;
+	-webkit-border-radius: 0;
+	border-radius: 0;
+}
+#content table.schedule th, #content table.schedule th a {
+	background-color: #2a160f;
+	color: #f8f3e5;
+}
+#content table.schedule tr.sorting th, #content table.schedule th a {
+	background-color: #482c1c;
+}
+#content table.schedule thead th:nth-child(3), #content table.schedule thead th:nth-child(4), #content table.schedule thead th:nth-child(5), #content table.schedule thead th:nth-child(7), #content table.schedule thead th:nth-child(8), #content table.schedule thead th:nth-child(9) {
+	border-left: #f8f3e5;
+}
+#content table.schedule thead th:nth-child(2), #content table.schedule thead th:nth-child(6), #content table.schedule thead th:nth-child(10) {
+	background: rgba(72, 44, 28, 0.05);
+    color: #2a160f;
+}
+#content table.schedule tbody td:nth-child(2), #content table.schedule tbody td:nth-child(6), #content table.schedule tbody td:nth-child(10) {
+	background: rgba(72, 44, 28, 0.05);
+}
+#content table.schedule tr:nth-child(even) td:nth-child(3), #content table.schedule tr:nth-child(even) td:nth-child(4), #content table.schedule tr:nth-child(even) td:nth-child(5), #content table.schedule tr:nth-child(even) td:nth-child(7), #content table.schedule tr:nth-child(even) td:nth-child(8), #content table.schedule tr:nth-child(even) td:nth-child(9) {
+    background: rgba(173, 127, 16, 0.15);
+}
+#content table.schedule tr th:nth-child(3), #content table.schedule tr th:nth-child(4), #content table.schedule tr th:nth-child(7), #content table.schedule tr th:nth-child(8) {
+    border-right: 1px solid #999999;
+}
+#content table.schedule tr td:nth-child(3), #content table.schedule tr td:nth-child(4), #content table.schedule tr td:nth-child(7), #content table.schedule tr td:nth-child(8) {
+    border-right: 1px solid #999999;
+}
+#content table.schedule tr:nth-child(odd).sorting th {
+        background: rgba(72, 44, 28, 0.57);
+}
+#content table.schedule tbody td {
+		border: none;
+		padding: 0, 0.5%;
+}
+#content .event_block .event_name {
+	color: #00aca0;
+}
+#content table.schedule td, #content table.schedule td a {
+	color: #00aca0;
+	font-family: Arial,sans-serif;
+}
+form label {
+  color: black;
+}
+
+/* 
+Max width before this PARTICULAR table gets nasty
+This query will take effect for any screen smaller than 760px
+and also iPads specifically.
+*/
+@media 
+only screen and (max-width: 80px), 
+(min-device-width: 40px) and (max-device-width: 60px)  {
+
+body #content {
+  margin: auto;
+  float: none;
+}
+#content .event_block .logo {
+  float: left;
+}
+#content .event_block .logo .event_name {
+  Display:none;
+}
+/* Force table to not be like tables anymore */
+	table, thead, tbody, th, td, tr { 
+		display: block; 
+	}
+	
+	/* Hide table headers (but not display: none;, for accessibility) */
+	#content table.schedule thead tr { 
+		position: absolute;
+		top: -9999px;
+		left: -9999px;
+	}
+	
+	#content table.schedule tr { border: 1px solid #ccc; }
+	
+	#content table.schedule td { 
+		/* Behave  like a ""row"" */
+		border: none;
+		border-bottom: 1px solid #eee; 
+		position: relative;
+		padding-left: 0%; 
+                font-size: 1.5em;
+	}
+	
+	#content table.schedule td:before { 
+		/* Now like a table header */
+		position: absolute;
+		/* Top/left values mimic padding */
+		top: 6px;
+		left: 6px;
+		width: 45%; 
+		padding-right: 10px; 
+		white-space: nowrap;
+	}
+	#content table.schedule tr td:nth-child(3), #content table.schedule tr td:nth-child(4), #content table.schedule tr td:nth-child(7), #content table.schedule tr td:nth-child(8) {
+		border-right: none;
+	}
+	
+	/*
+	Label the data
+	*/
+	#content table.schedule td:nth-child(2) div:before { content: '09:00 AM'; }
+	#content table.schedule td:nth-child(3) div:before { content: '10:15 AM'; }
+	#content table.schedule td:nth-child(4) div:before { content: '11:15 AM'; }
+	#content table.schedule td:nth-child(5) div:before { content: '12:15 PM'; }
+	#content table.schedule td:nth-child(6) div:before { content: '01:00 PM'; }
+	#content table.schedule td:nth-child(7) div:before { content: '02:15 PM'; }
+	#content table.schedule td:nth-child(8) div:before { content: '03:15 PM'; }
+	#content table.schedule td:nth-child(9) div:before { content: '04:15 PM'; }
+	#content table.schedule td:nth-child(10) div:before { content: '05:15 PM'; }
+	#content table.schedule td:nth-child(1) div:before { content: 'ROOM'; }
+
+#content table.schedule tbody td {
+		border-bottom: 1px solid rgba(5,5,3,0.15); 
+}
+
+}
+
+@media 
+only screen and (max-width: 80px), 
+(min-device-width: 40px) and (max-device-width: 80px)  {
+
+#content {
+  width: 100%;
+font-size: 100%;
+}
+
+.event_name {
+  Display:none;
+}
+	#content table.schedule td { 
+		/* Behave  like a ""row"" */
+		position: relative;
+		padding-left: 0%; 
+	}
+
+#content .event_block .logo {
+margin-right: 0;
+width: 100%;
+display: inline;
+position: relative;
+margin: 0 0px 1.5em 0px;
+text-align: right;
+}
+}"
+BarCamp Philly 2014,http://www.barcampphilly.org/,http://2014.barcampphilly.org/images/logo-bcp-schedule.png,2014-10-24 13:32:12.534298,2015-10-27 14:50:39.295813,,"@import url(http://fonts.googleapis.com/css?family=Dosis:200,400);
+@font-face {
+  font-family: 'Dosis', sans-serif;;
+  font-weight:400;font-style:normal;
+}
+
+body, body #header, body #footer {
+  color: white;
+  width: 100%;
+  font-family: 'Dosis', sans-serif;
+  font-size: 1em;
+  background-color: rgb(13, 16, 23);
+}
+
+html{
+  background: url(http://dev.barcampphilly.org/images/hero-fade-left.png) 0 100% no-repeat,url(http://dev.barcampphilly.org/images/hero-fade-right.png) 100% 100% no-repeat,,url(http://dev.barcampphilly.org/images/hero-bkg.jpg) 50% 0 no-repeat;
+}
+
+body {
+}
+strong {
+  font-weight: 600;
+}
+body #header .menu_item {
+  margin: 0;
+  padding: 3px 10px 3px 10px;
+  background-color: rgba(173, 127, 16, 0.721569);
+}
+body #header .menu_item a {
+  color: white;
+}
+body #footer a {
+  color: white;
+}
+body #content {
+  background: rgba(0,0,0,0);
+  color: #FFF;
+}
+
+body #content {
+  display: inherit;
+  float: left;
+  margin: auto;
+  width: 90%;
+}
+
+#content a, #content a:visited  {
+  color: #00aca0;
+}
+#content a:hover  {
+  color: rgba(173, 127, 16, 1);
+}
+#content table.schedule th, #content table.schedule td .presentation {
+  font-size: 1.0em;
+  line-height: 0.975em;
+}
+#content table.schedule th, #content table.schedule td {
+  padding: 0,6px;
+}
+#content .event_block, #content table.schedule th {
+  border: none;
+  background-image: none;
+  -webkit-box-shadow: none;
+  -webkit-border-radius: 0;
+  border-radius: 0;
+}
+#content table.schedule {
+  /* background-color: rgba(13,16,23,.5); */
+}
+#content table.schedule th, #content table.schedule th a {
+  background-color: #2a160f;
+  background-color: rgba(0,0,0,.5);
+  color: #fff;
+}
+#content table.schedule tr.sorting:nth-child(odd) th {
+  color: white;
+}
+#content table.schedule tr.sorting th, #content table.schedule th a {
+  background-color: rgba(92, 156, 9, 0.6);
+}
+#content table.schedule thead th:nth-child(3), #content table.schedule thead th:nth-child(4), #content table.schedule thead th:nth-child(5), #content table.schedule thead th:nth-child(7), #content table.schedule thead th:nth-child(8), #content table.schedule thead th:nth-child(9) {
+  border-left: #f8f3e5;
+}
+#content table.schedule thead th:nth-child(2), #content table.schedule thead th:nth-child(6), #content table.schedule thead th:nth-child(10) {
+  background: rgba(92, 156, 9, 0.85);
+  color: #333;
+}
+#content table.schedule tbody td:nth-child(2), #content table.schedule tbody td:nth-child(6), #content table.schedule tbody td:nth-child(10) {
+  background: rgba(0, 0, 0, 1);
+  opacity: 0.75;
+}
+#content table.schedule tr:nth-child(even) td:nth-child(3), #content table.schedule tr:nth-child(even) td:nth-child(4), #content table.schedule tr:nth-child(even) td:nth-child(5), #content table.schedule tr:nth-child(even) td:nth-child(7), #content table.schedule tr:nth-child(even) td:nth-child(8), #content table.schedule tr:nth-child(even) td:nth-child(9) {
+  background: rgba(92, 156, 9, 0.3);
+}
+#content table.schedule tr th:nth-child(3), #content table.schedule tr th:nth-child(4), #content table.schedule tr th:nth-child(7), #content table.schedule tr th:nth-child(8) {
+  border-right: 1px solid #999999;
+}
+#content table.schedule tr td:nth-child(3), #content table.schedule tr td:nth-child(4), #content table.schedule tr td:nth-child(7), #content table.schedule tr td:nth-child(8) {
+  border-right: 1px solid #999999;
+}
+#content table.schedule tr:nth-child(odd).sorting th {
+  background: rgba(92, 156, 9, 0);
+}
+#content table.schedule tbody td {
+  border: none;
+  padding: 0, 0.5%;
+}
+#content .event_block .event_name {
+  color: #00aca0;
+  font-variant: normal;
+  font-family: 'Dosis', sans-serif;
+}
+#content table.schedule td, #content table.schedule td a {
+  color: #00aca0;
+  font-family: Dosis,Arial,sans-serif;
+}
+form label {
+  color: black;
+}
+
+/*
+Max width before this PARTICULAR table gets nasty
+This query will take effect for any screen smaller than 760px
+and also iPads specifically.
+*/
+@media
+only screen and (max-width: 680px),
+(min-device-width: 40px) and (max-device-width: 480px)  {
+
+body #content {
+  margin: auto;
+  float: none;
+  padding-left: 0;
+  padding-right: 0;
+}
+body #header, body #footer {
+  max-width: 100%;
+}
+
+#content .event_block .logo {
+  float: left;
+}
+#content .event_block .logo .event_name {
+  Display:none;
+}
+
+/* Force table to not be like tables anymore */
+table, thead, tbody, th, td, tr {
+  display: block;
+}
+
+/* Hide table headers (but not display: none;, for accessibility) */
+#content table.schedule thead tr {
+  position: absolute;
+  top: -9999px;
+  left: -9999px;
+}
+
+#content table.schedule tr { border: 1px solid #ccc; }
+
+#content table.schedule td {
+  /* Behave  like a ""row"" */
+  border: none;
+  border-bottom: 1px solid #eee;
+  position: relative;
+  padding-left: 0%;
+  font-size: 1.5em;
+}
+
+#content table.schedule td:before {
+  /* Now like a table header */
+  position: absolute;
+  /* Top/left values mimic padding */
+  top: 6px;
+  left: 6px;
+  width: 45%;
+  padding-right: 10px;
+  white-space: nowrap;
+}
+#content table.schedule tr td:nth-child(3), #content table.schedule tr td:nth-child(4), #content table.schedule tr td:nth-child(7), #content table.schedule tr td:nth-child(8) {
+  border-right: none;
+}
+
+/*
+Label the data
+*/
+#content table.schedule td:nth-child(2) div:before { content: '09:45 AM'; }
+#content table.schedule td:nth-child(3) div:before { content: '10:15 AM'; }
+#content table.schedule td:nth-child(4) div:before { content: '11:15 AM'; }
+#content table.schedule td:nth-child(5) div:before { content: '12:15 PM'; }
+#content table.schedule td:nth-child(6) div:before { content: '01:00 PM'; }
+#content table.schedule td:nth-child(7) div:before { content: '02:15 PM'; }
+#content table.schedule td:nth-child(8) div:before { content: '03:15 PM'; }
+#content table.schedule td:nth-child(9) div:before { content: '04:15 PM'; }
+#content table.schedule td:nth-child(10) div:before { content: '05:15 PM'; }
+#content table.schedule td:nth-child(1) div:before { content: 'ROOM'; }
+
+#content table.schedule tbody td {
+  border-bottom: 1px solid rgba(5,5,3,0.15);
+}
+
+}
+
+@media
+only screen and (max-width: 680px),
+(min-device-width: 40px) and (max-device-width: 480px)  {
+
+  #content {
+    width: initial;
+    font-size: 100%;
+  }
+
+  .event_name {
+    Display:none;
+  }
+
+  #content table.schedule td {
+    /* Behave  like a ""row"" */
+    position: relative;
+    padding-left: 0%;
+  }
+
+  #content .event_block .logo {
+    margin-right: 0;
+    width: 100%;
+    display: inline;
+    position: relative;
+    margin: 0 0px 1.5em 0px;
+    text-align: right;
+  }
+}
+"
+BarCamp Philly 8,http://2015.barcampphilly.org/,http://dev.barcampphilly.org/images/hero-libertybell.png,2015-10-19 00:59:47.103747,2015-11-07 03:58:56.312117,,"@import url(http://fonts.googleapis.com/css?family=Dosis:200,400);
+@font-face{
+  font-weight:100;
+  font-style:normal;
+  font-family:'whitney-htf-light';
+  src:url('http://2015.barcampphilly.org/fonts//whitneyhtf-light-webfont.eot');
+  src:url('http://2015.barcampphilly.org/fonts//whitneyhtf-light-webfont.eot?#iefix') format('embedded-opentype'),
+  url('http://2015.barcampphilly.org/fonts//whitneyhtf-light-webfont.woff2') format('woff2'),
+  url('http://2015.barcampphilly.org/fonts//whitneyhtf-light-webfont.woff') format('woff'),
+  url('http://2015.barcampphilly.org/fonts//whitneyhtf-light-webfont.ttf') format('truetype'),
+  url('http://2015.barcampphilly.org/fonts//whitneyhtf-light-webfont.svg#whitney_htflight') format('svg');
+}
+
+body, body #header, body #footer {
+  color: white;
+  width: 98%;
+  font-family: 'whitney-htf-light', sans-serif;
+  font-size: 1em;
+  background-color: rgb(13, 16, 23);
+  margin: auto 10px auto 10px;
+}
+
+body #dialog_box {
+  height: inherit;
+}
+
+body #header .menu_item {
+  margin: 0;
+  padding: 3px 10px 3px 10px;
+  background-color: rgba(173, 127, 16, 0.721569);
+}
+body #header .menu_item a,
+body #footer a {
+  color: white;
+}
+
+body #content {
+  background: rgba(0,0,0,0);
+  color: #FFF;
+  display: inherit;
+  float: left;
+  margin: 0;
+  width: 100%;
+  padding: 10px 0;
+}
+
+#content {
+  width: 100%;
+}
+
+.presentation strong {
+  font-weight: 200;
+  font-style: normal;
+}
+
+#content a, #content a:visited  {
+  color: #00aca0;
+}
+#content a:hover  {
+  color: rgba(173, 127, 16, 1);
+}
+#content table.schedule th {
+  font-size: 1.0em;
+  line-height: 0.975em;
+}
+#content table.schedule th, #content table.schedule td {
+  padding: 0,6px;
+}
+#content table {
+  width: 100%;
+}
+
+#content .event_block .logo {
+  width: inherit;
+  right: 1%;
+  max-width: 100px;
+}
+
+#content .event_block .logo img {
+    width: 100%;
+    max-width: 100px;
+}
+
+#content .event_block, #content table.schedule th {
+  border: none;
+  background-image: none;
+  -webkit-box-shadow: none;
+  -webkit-border-radius: 0;
+  border-radius: 0;
+}
+
+body #content .event_block {
+    background-image: none;
+    background-image: none;
+    background-image: none;
+    background-color: rgba(0, 0, 0, 0.0);
+    border: none;
+    padding: 5px;
+    clear: both;
+    min-height: 100px;
+}
+
+body #content .presentation {
+    background-image: none;
+    background-image: none;
+    background-image: none;
+    background-color: rgba(0, 0, 0, 0.0);
+    border-top: 0.75px solid #999999;
+}
+
+#content .title {
+    line-height: normal;
+    padding-bottom: 10px;
+}
+
+#content table.schedule {
+  /* background-color: rgba(13,16,23,.5); */
+  margin:auto;
+}
+#content table.schedule th, #content table.schedule th a {
+  background-color: #2a160f;
+  background-color: rgba(0,0,0,.5);
+  color: #fff;
+}
+#content table.schedule tr.sorting:nth-child(odd) th {
+  color: white;
+}
+#content table.room_rows tr.sorting th, #content table.room_rows th a {
+  background-color: rgba(92, 156, 9, 0.6);
+}
+#content table.time_rows thead th:nth-child(3), #content table.time_rows thead th:nth-child(4), #content table.time_rows thead th:nth-child(5), #content table.time_rows thead th:nth-child(7), #content table.time_rows thead th:nth-child(8), #content table.time_rows thead th:nth-child(9) {
+  border-left: #f8f3e5;
+}
+#content table.room_rows tbody td:nth-child(2), #content table.room_rows tbody td:nth-child(6), #content table.room_rows tbody td:nth-child(10) {
+  background: rgba(0, 0, 0, 1);
+}
+#content table.time_rows tr:nth-child(even) th:nth-child(1), #content table.time_rows tr:nth-child(even) td:nth-child(2), #content table.time_rows tr:nth-child(even) td:nth-child(3), #content table.time_rows tr:nth-child(even) td:nth-child(4), #content table.time_rows tr:nth-child(even) td:nth-child(5), #content table.time_rows tr:nth-child(even) td:nth-child(6), #content table.time_rows tr:nth-child(even) td:nth-child(7), #content table.time_rows tr:nth-child(even) td:nth-child(8), #content table.time_rows tr:nth-child(even) td:nth-child(9), #content table.time_rows tr:nth-child(even) td:nth-child(10), #content table.time_rows tr:nth-child(even) td:nth-child(11), #content table.time_rows tr:nth-child(even) td:nth-child(12) {
+  background: rgba(92, 156, 9, 0.3);
+}
+#content table.room_rows tr:nth-child(even) td:nth-child(3), #content table.room_rows tr:nth-child(even) td:nth-child(4), #content table.room_rows tr:nth-child(even) td:nth-child(5), #content table.room_rows tr:nth-child(even) td:nth-child(7), #content table.room_rows tr:nth-child(even) td:nth-child(8), #content table.room_rows tr:nth-child(even) td:nth-child(9) {
+  background: rgba(92, 156, 9, 0.3);
+}
+
+#content table.room_rows tr.sorting th, #content table.room_rows tr.sorting th a {
+    background-color: rgba(0, 0, 0, 0);
+}
+
+#content table.room_rows tr:nth-of-type(even) th {
+    background-color: rgba(92, 156, 9, 0.6);
+}
+
+#content table.schedule tr th:nth-child(3), #content table.schedule tr th:nth-child(4), #content table.schedule tr th:nth-child(7), #content table.schedule tr th:nth-child(8) {
+  border-right: 1px solid #999999;
+}
+#content table.schedule tr td:nth-child(3), #content table.schedule tr td:nth-child(4), #content table.schedule tr td:nth-child(7), #content table.schedule tr td:nth-child(8) {
+  border-right: 1px solid #999999;
+}
+#content table.schedule tbody td {
+  border: none;
+  padding: 0, 0.5%;
+}
+
+#content .event_block .event_name {
+  color: #00aca0;
+  font-variant: normal;
+  font-family: 'whitney-htf-light', sans-serif;
+}
+#content table.schedule td, #content table.schedule td a {
+  color: #00aca0;
+  font-family: 'whitney-htf-light', sans-serif;
+}
+
+#content table.room_rows td:nth-child(4n+2) div strong a,
+#content table.room_rows td:nth-child(6) div strong a,
+#content table.room_rows td:nth-child(10) div strong a,
+#content table.time_rows tbody tr:nth-of-type(1) strong a {
+  pointer-events: none;
+  text-decoration: none;
+  color: #5e5e5e;
+}
+
+#content table.true {
+  pointer-events: auto;
+  text-decoration: auto;
+}
+
+.field .data {
+  width: 65%;
+}
+
+form label {
+  color: black;
+}
+
+  @media screen and (max-width: 600px) {
+
+    body {
+      font-size: 1.5em;
+      line-height: 1.25em;
+      margin: 0;
+    }
+
+    body #header, body #footer {
+      font-size: 11px;
+    }
+
+    body #footer {
+      line-height: 17px;
+      text-align: center;
+      margin: 0;
+      padding: 10px;
+    }
+
+    body #content .event_block {
+        min-height: 20px;
+    }
+
+    #content .event_block .logo {
+       max-width: 60px;
+    }
+
+    #content .event_block .logo img {
+       width: 75%;
+    }
+
+    #content table.time_rows tbody td:nth-child(2), #content table.time_rows tbody td:nth-child(6), #content table.time_rows tbody td:nth-child(10) {
+      background-color: rgba(0, 0, 0, 1);
+    }
+
+    #content table.time_rows tr:nth-of-type(odd) td {
+      background-color: rgba(92, 156, 9, 0.3);
+    }
+    #content table.time_rows tr td:nth-of-type(odd) {
+      background-color: rgba(0, 0, 0, 0.7);
+        border-top: 0.75px solid #999999;
+      opacity: 0.75;
+    }
+
+    #content table.time_rows tr:nth-child(even) th:nth-child(1) {
+        background: rgba(0, 0, 0, 1);
+    }
+
+    #content table.room_rows tbody td:nth-child(2) strong a, #content table.room_rows tbody td:nth-child(6) strong a, #content table.room_rows tbody td:nth-child(10) strong a {
+        background: rgba(0, 0, 0, 1);
+        color: #000;
+    }
+
+    #content .title {
+        font-size: 1em;
+        font-weight: normal;
+        line-height: normal;
+    }
+
+    #content .field label {
+      font-size: 16px;
+      font-weight: normal;
+      margin-right: 0px;
+      width: 34%;
+    }
+
+    .field .data {
+      float: right;
+      width: 65%;
+      font-size: 18px;
+      line-height: normal;
+      padding-bottom: 12px;
+      font-weight: 100;
+    }
+
+    #content .event_block .event_name {
+      font-size: 0.9em;
+      font-weight: bold;
+    }
+
+    table.schedule td .presentation {
+      font-size: 2.0em;
+      line-height: 1.25em;
+    }
+
+    table {
+      border: 0;
+      max-width: 100%;
+      width: 90%;
+      margin: auto;
+    }
+
+    table thead {
+      display: none;
+    }
+
+    table tr {
+      margin-bottom: 10px;
+      display: block;
+      border-bottom: 2px solid #ddd;
+    }
+
+    table td {
+      display: block;
+      text-align: center;
+      font-size: 13px;
+      border-bottom: 1px dotted #ccc;
+    }
+
+    table td:last-child {
+      border-bottom: 0;
+    }
+
+    table td:before {
+      content: attr(data-label);
+      float: left;
+      text-transform: uppercase;
+      font-weight: bold;
+    }
+    #content table.time_rows tbody tr:nth-of-type(1) strong a {
+        display: none;
+    }
+  }
+"
+BarCamp Philly 2016,http://barcampphilly.org,https://ticketleap-usr-master.s3.amazonaws.com/Organization-Logo/80c3f2a8-d893-11df-8704-12313d01a9d4/2016-10-05-04-17-13.jpg,2016-10-18 00:48:04.87581,2016-11-04 14:02:35.201086,9th Annual Philly BarCamp,"@import url(http://fonts.googleapis.com/css?family=Dosis:200,400);
+@font-face{
+  font-weight:100;
+  font-style:normal;
+  font-family:'whitney-htf-light';
+  src:url('http://2015.barcampphilly.org/fonts//whitneyhtf-light-webfont.eot');
+  src:url('http://2015.barcampphilly.org/fonts//whitneyhtf-light-webfont.eot?#iefix') format('embedded-opentype'),
+  url('http://2015.barcampphilly.org/fonts//whitneyhtf-light-webfont.woff2') format('woff2'),
+  url('http://2015.barcampphilly.org/fonts//whitneyhtf-light-webfont.woff') format('woff'),
+  url('http://2015.barcampphilly.org/fonts//whitneyhtf-light-webfont.ttf') format('truetype'),
+  url('http://2015.barcampphilly.org/fonts//whitneyhtf-light-webfont.svg#whitney_htflight') format('svg');
+}
+
+body, body #header, body #footer {
+  color: black;
+  width: 98%;
+  font-family: 'whitney-htf-light', sans-serif;
+  font-size: 1em;
+  background-color: #e7e8da;
+  margin: auto 10px auto 10px;
+}
+
+body #dialog_box {
+  height: inherit;
+}
+
+body #header .menu_item {
+  margin: 0;
+  padding: 3px 10px 3px 10px;
+  background-color: rgba(173, 127, 16, 0.721569);
+}
+body #header .menu_item a,
+body #footer a {
+  color: black;
+}
+
+body #content {
+  background: #e7e8da;
+  color: black;
+  display: inherit;
+  float: left;
+  margin: 0;
+  width: 100%;
+  padding: 10px 0;
+}
+
+#content {
+  width: 100%;
+}
+
+.presentation strong {
+  font-weight: 200;
+  font-style: normal;
+}
+
+#content a, #content a:visited  {
+  color: #00aca0;
+}
+#content a:hover  {
+  color: rgba(173, 127, 16, 1);
+}
+#content table.schedule th {
+  font-size: 0.85em;
+  line-height: 0.975em;
+  font-weight: initial;
+}
+#content table.schedule th, #content table.schedule td {
+  padding: 0,6px;
+}
+#content table {
+  width: 100%;
+}
+
+#content .event_block .logo {
+  width: inherit;
+  right: 1%;
+  max-width: 100px;
+}
+
+#content .event_block .logo img {
+    width: 100%;
+    max-width: 100px;
+}
+
+#content .event_block, #content table.schedule th {
+  border: none;
+  background-image: none;
+  -webkit-box-shadow: none;
+  -webkit-border-radius: 0;
+  border-radius: 0;
+}
+
+body #content .event_block {
+    background-image: none;
+    background-image: none;
+    background-image: none;
+    background-color: rgba(255, 255, 255, 0);
+    border: none;
+    padding: 5px;
+    clear: both;
+    min-height: 100px;
+}
+
+body #content .presentation {
+    background-image: none;
+    background-image: none;
+    background-image: none;
+    background-color: rgba(0, 0, 0, 0.0);
+    border-top: 0.75px solid rgba(0, 0, 0, 0);
+}
+
+#content .title {
+    line-height: normal;
+    padding-bottom: 10px;
+    color: #c577ae;
+}
+
+#content table.schedule {
+  /* background-color: rgba(13,16,23,.5); */
+  margin:auto;
+}
+#content table.schedule th, #content table.schedule th a {
+  color: black;
+}
+#content table.schedule tr.sorting:nth-child(odd) th {
+  color: black;
+}
+#content table.room_rows tr.sorting th, #content table.room_rows th a {
+  background-color: #c577ae;
+  background-color: #8cd4dc;
+}
+#content table.time_rows thead th:nth-child(3), #content table.time_rows thead th:nth-child(4), #content table.time_rows thead th:nth-child(5), #content table.time_rows thead th:nth-child(7), #content table.time_rows thead th:nth-child(8), #content table.time_rows thead th:nth-child(9) {
+  border-left: #f8f3e5;
+}
+#content table.room_rows tbody td:nth-child(2), #content table.room_rows tbody td:nth-child(6), #content table.room_rows tbody td:nth-child(10) {
+  background: rgba(0, 0, 0, 0.25);
+}
+#content table.time_rows tr:nth-child(even) th:nth-child(1), #content table.time_rows tr:nth-child(even) td:nth-child(2), #content table.time_rows tr:nth-child(even) td:nth-child(3), #content table.time_rows tr:nth-child(even) td:nth-child(4), #content table.time_rows tr:nth-child(even) td:nth-child(5), #content table.time_rows tr:nth-child(even) td:nth-child(6), #content table.time_rows tr:nth-child(even) td:nth-child(7), #content table.time_rows tr:nth-child(even) td:nth-child(8), #content table.time_rows tr:nth-child(even) td:nth-child(9), #content table.time_rows tr:nth-child(even) td:nth-child(10), #content table.time_rows tr:nth-child(even) td:nth-child(11), #content table.time_rows tr:nth-child(even) td:nth-child(12) {
+  background: #cccfb0;
+}
+#content table.room_rows tr:nth-child(even) td:nth-child(3), #content table.room_rows tr:nth-child(even) td:nth-child(4), #content table.room_rows tr:nth-child(even) td:nth-child(5), #content table.room_rows tr:nth-child(even) td:nth-child(7), #content table.room_rows tr:nth-child(even) td:nth-child(8), #content table.room_rows tr:nth-child(even) td:nth-child(9) {
+  background: #cccfb0;
+}
+
+#content table.room_rows tr.sorting th, #content table.room_rows tr.sorting th a {
+    background-color: rgba(0, 0, 0, 0);
+}
+
+#content table.room_rows tr:nth-of-type(even) th {
+    background-color: #cccfb0;
+}
+
+#content table.schedule tr th:nth-child(3), #content table.schedule tr th:nth-child(4), #content table.schedule tr th:nth-child(7), #content table.schedule tr th:nth-child(8) {
+  border-right: 1px solid #c577ae;
+}
+#content table.schedule tr td:nth-child(3), #content table.schedule tr td:nth-child(4), #content table.schedule tr td:nth-child(7), #content table.schedule tr td:nth-child(8) {
+  border-right: 1px solid #c577ae;
+}
+#content table.schedule tbody td {
+  border: none;
+  padding: 0, 0.5%;
+}
+
+#content .event_block .event_name {
+  color: #5FBFC9;
+  font-variant: normal;
+  font-family: 'whitney-htf-light', sans-serif;
+}
+#content table.schedule td, #content table.schedule td a {
+  color: black;
+  font-family: 'whitney-htf-light', sans-serif;
+}
+
+#content table.room_rows td:nth-child(4n+2) div strong a,
+#content table.room_rows td:nth-child(6) div strong a,
+#content table.room_rows td:nth-child(10) div strong a,
+#content table.time_rows tbody tr:nth-of-type(1) strong a {
+  pointer-events: none;
+  text-decoration: none;
+  color: #5e5e5e;
+}
+
+#content table.true {
+  pointer-events: auto;
+  text-decoration: auto;
+}
+
+.field .data {
+  width: 65%;
+}
+
+form label {
+  color: black;
+}
+
+  @media screen and (max-width: 600px) {
+
+    body {
+      font-size: 1.5em;
+      line-height: 1.25em;
+      margin: 0;
+    }
+
+    body #header, body #footer {
+      font-size: 11px;
+    }
+
+    body #footer {
+      line-height: 17px;
+      text-align: center;
+      margin: 0;
+      padding: 10px;
+    }
+
+    body #content {
+        margin: 0 10px;
+    }
+
+    body #content .event_block {
+        min-height: 20px;
+    }
+
+    body #content .event_block {
+        margin: 0 10px;
+    }
+
+    #content .event_block .logo {
+       max-width: 60px;
+    }
+
+    #content .event_block .logo img {
+       width: 75%;
+    }
+
+    #content table.time_rows tbody td:nth-child(2), #content table.time_rows tbody td:nth-child(6), #content table.time_rows tbody td:nth-child(10) {
+      background-color: rgba(0, 0, 0, 1);
+    }
+
+    #content table.time_rows tr:nth-of-type(odd) td {
+      background-color: #cccfb0;
+    }
+    #content table.time_rows tr td:nth-of-type(odd) {
+      background-color: rgba(0, 0, 0, 0.7);
+        border-top: 0.75px solid #c577ae;
+      opacity: 0.75;
+    }
+
+    #content table.time_rows tr:nth-child(even) th:nth-child(1) {
+        background: #8cd4dc;
+    }
+
+    #content table.room_rows tbody td:nth-child(2) strong a, #content table.room_rows tbody td:nth-child(6) strong a, #content table.room_rows tbody td:nth-child(10) strong a {
+        background: rgba(0, 0, 0, 1);
+        color: #000;
+    }
+
+    #content .title {
+        font-size: 1em;
+        font-weight: normal;
+        line-height: normal;
+    }
+
+    #content .field label {
+      font-size: 16px;
+      font-weight: normal;
+      margin-right: 0px;
+      width: 34%;
+    }
+
+    .field .data {
+      float: right;
+      width: 65%;
+      font-size: 18px;
+      line-height: normal;
+      padding-bottom: 12px;
+      font-weight: 100;
+    }
+
+    #content .event_block .event_name {
+      font-size: 0.9em;
+      font-weight: bold;
+    }
+
+    table.schedule td .presentation {
+      font-size: 2.0em;
+      line-height: 1.25em;
+    }
+
+    table {
+      border: 0;
+      max-width: 100%;
+      width: 90%;
+      margin: auto;
+    }
+
+    table thead {
+      display: none;
+    }
+
+    table tr {
+      margin-bottom: 10px;
+      display: block;
+      border-bottom: 2px solid #ddd;
+    }
+
+    table td {
+      display: block;
+      text-align: center;
+      font-size: 13px;
+      border-bottom: 1px dotted #ccc;
+    }
+
+    table td:last-child {
+      border-bottom: 0;
+    }
+
+    table td:before {
+      content: attr(data-label);
+      float: left;
+      text-transform: uppercase;
+      font-weight: bold;
+    }
+    #content table.time_rows tbody tr:nth-of-type(1) strong a {
+        display: none;
+    }
+  }
+"
+BarCamp Philly 2017,barcampphilly.org,https://pbs.twimg.com/profile_images/897591332163784704/NNt9e4kW_bigger.jpg,2017-08-17 13:44:59.457149,2017-10-14 02:13:23.174068,10th Annual Philadelphia BarCamp,"@import url(http://fonts.googleapis.com/css?family=Dosis:200,400);
+@font-face{
+  font-weight:100;
+  font-style:normal;
+  font-family:'whitney-htf-light';
+  src:url('https://2015.barcampphilly.org/fonts/whitneyhtf-light-webfont.woff2');
+}
+
+body, body #header, body #footer {
+  color: black;
+  width: 98%;
+  font-family: 'whitney-htf-light', sans-serif;
+  font-size: 1em;
+  background-color: #fff;
+  margin: auto 10px auto 10px;
+}
+
+body #dialog_box {
+  height: inherit;
+}
+
+body #header .menu_item {
+  margin: 0;
+  padding: 3px 10px 3px 10px;
+  background-color: #607023;
+}
+body #header .menu_item a,
+body #footer a {
+  color: black;
+}
+
+body #content {
+  background: #C9D2DA;
+  color: black;
+  display: inherit;
+  float: left;
+  margin: 0;
+  width: 100%;
+  padding: 10px 0;
+}
+
+#content {
+  width: 100%;
+}
+
+.presentation strong {
+  font-weight: 200;
+  font-style: normal;
+}
+
+#content a, #content a:visited  {
+  color: #617133;
+}
+#content a:hover  {
+  color: rgba(173, 127, 16, 1);
+}
+#content table.schedule th {
+  font-size: 0.85em;
+  line-height: 0.975em;
+  font-weight: initial;
+}
+#content table.schedule th, #content table.schedule td {
+  padding: 0,6px;
+}
+#content table {
+  width: 100%;
+}
+
+#content .event_block .logo {
+  width: inherit;
+  right: 1%;
+  max-width: 100px;
+}
+
+#content .event_block .logo img {
+    width: 100%;
+    max-width: 100px;
+}
+
+#content .event_block, #content table.schedule th {
+  border: none;
+  background-image: none;
+  -webkit-box-shadow: none;
+  -webkit-border-radius: 0;
+  border-radius: 0;
+}
+
+body #content .event_block {
+    background-image: none;
+    background-image: none;
+    background-image: none;
+    background-color: rgba(255, 255, 255, 0);
+    border: none;
+    padding: 5px;
+    clear: both;
+    min-height: 100px;
+}
+
+body #content .presentation {
+    background-image: none;
+    background-image: none;
+    background-image: none;
+    background-color: rgba(0, 0, 0, 0.0);
+    border-top: 0.75px solid rgba(0, 0, 0, 0);
+}
+
+#content .title {
+    line-height: normal;
+    padding-bottom: 10px;
+    color: #133546;
+}
+
+#content table.schedule {
+  /* background-color: rgba(13,16,23,.5); */
+  margin:auto;
+}
+#content table.schedule th, #content table.schedule th a {
+  color: black;
+}
+#content table.schedule tr.sorting:nth-child(odd) th {
+  color: black;
+}
+#content table.room_rows tr.sorting th, #content table.room_rows th a {
+  background-color: #c577ae;
+  background-color: #8cd4dc;
+}
+#content table.time_rows thead th:nth-child(3), #content table.time_rows thead th:nth-child(4), #content table.time_rows thead th:nth-child(5), #content table.time_rows thead th:nth-child(7), #content table.time_rows thead th:nth-child(8), #content table.time_rows thead th:nth-child(9) {
+  border-left: #f8f3e5;
+}
+#content table.room_rows tbody td:nth-child(2), #content table.room_rows tbody td:nth-child(6), #content table.room_rows tbody td:nth-child(10) {
+  background: rgba(17, 55, 71, 0.75);
+}
+#content table.time_rows tr:nth-child(even) th:nth-child(1), #content table.time_rows tr:nth-child(even) td:nth-child(2), #content table.time_rows tr:nth-child(even) td:nth-child(3), #content table.time_rows tr:nth-child(even) td:nth-child(4), #content table.time_rows tr:nth-child(even) td:nth-child(5), #content table.time_rows tr:nth-child(even) td:nth-child(6), #content table.time_rows tr:nth-child(even) td:nth-child(7), #content table.time_rows tr:nth-child(even) td:nth-child(8), #content table.time_rows tr:nth-child(even) td:nth-child(9), #content table.time_rows tr:nth-child(even) td:nth-child(10), #content table.time_rows tr:nth-child(even) td:nth-child(11), #content table.time_rows tr:nth-child(even) td:nth-child(12), #content table.time_rows tr:nth-child(even) td:nth-child(13), #content table.time_rows tr:nth-child(even) td:nth-child(14), #content table.time_rows tr:nth-child(even) td:nth-child(15), #content table.time_rows tr:nth-child(even) td:nth-child(16) {
+  background: rgba(17, 55, 71, 0.75);
+  color: white;
+}
+#content table.room_rows tr:nth-child(even) td:nth-child(3), #content table.room_rows tr:nth-child(even) td:nth-child(4), #content table.room_rows tr:nth-child(even) td:nth-child(5), #content table.room_rows tr:nth-child(even) td:nth-child(7), #content table.room_rows tr:nth-child(even) td:nth-child(8), #content table.room_rows tr:nth-child(even) td:nth-child(9) {
+  background: rgba(50, 87, 109, 0.65);
+}
+
+#content table.room_rows tr.sorting th, #content table.room_rows tr.sorting th a {
+    background-color: rgba(0, 0, 0, 0);
+}
+
+#content table.room_rows tr:nth-of-type(even) th {
+    background-color: rgba(50, 87, 109, 0.65);
+}
+
+#content table.schedule tr th:nth-child(3), #content table.schedule tr th:nth-child(4), #content table.schedule tr th:nth-child(7), #content table.schedule tr th:nth-child(8) {
+  border-right: 1px solid #113747;
+}
+#content table.schedule tr td:nth-child(3), #content table.schedule tr td:nth-child(4), #content table.schedule tr td:nth-child(7), #content table.schedule tr td:nth-child(8) {
+  border-right: 1px solid #113747;
+}
+#content table.schedule tbody td {
+  border: none;
+  padding: 0, 0.5%;
+}
+
+#content .event_block .event_name {
+  color: #133546;
+  font-variant: normal;
+  font-family: 'whitney-htf-light', sans-serif;
+}
+#content table.schedule td, #content table.schedule td a {
+  color: black;
+  font-family: 'whitney-htf-light', sans-serif;
+}
+
+#content table.room_rows td:nth-child(4n+2) div strong a,
+#content table.room_rows td:nth-child(6) div strong a,
+#content table.room_rows td:nth-child(10) div strong a,
+#content table.time_rows tbody tr:nth-of-type(1) strong a {
+  pointer-events: none;
+  text-decoration: none;
+  color: #5e5e5e;
+}
+
+#content table.true {
+  pointer-events: auto;
+  text-decoration: auto;
+}
+
+.field .data {
+  width: 65%;
+}
+
+form label {
+  color: black;
+}
+
+  @media screen and (max-width: 600px) {
+
+    body {
+      font-size: 1.5em;
+      line-height: 1.25em;
+      margin: 0;
+    }
+
+    body #header, body #footer {
+      font-size: 11px;
+    }
+
+    body #footer {
+      line-height: 17px;
+      text-align: center;
+      margin: 0;
+      padding: 10px;
+    }
+
+    body #content {
+        margin: 0 10px;
+    }
+
+    body #content .event_block {
+        min-height: 20px;
+    }
+
+    body #content .event_block {
+        margin: 0 10px;
+    }
+
+    #content .event_block .logo {
+       max-width: 60px;
+    }
+
+    #content .event_block .logo img {
+       width: 75%;
+    }
+
+    #content table.time_rows tbody td:nth-child(2), #content table.time_rows tbody td:nth-child(6), #content table.time_rows tbody td:nth-child(10), #content table.time_rows tbody td:nth-child(14) {
+      background-color: rgba(17, 55, 71, 0);
+    }
+
+    #content table.time_rows tr:nth-of-type(odd) td {
+      background-color: rgba(17, 55, 71, 0.75);
+    }
+    #content table.time_rows tr td:nth-of-type(odd) {
+      background-color: rgba(0, 0, 0, 0);
+        border-top: 0.75px solid rgba(17, 55, 71, 0.75);
+      opacity: 0.75;
+    }
+
+    #content table.time_rows tr:nth-child(even) th:nth-child(1) {
+        background: #8cd4dc;
+    }
+
+    #content table.room_rows tbody td:nth-child(2) strong a, #content table.room_rows tbody td:nth-child(6) strong a, #content table.room_rows tbody td:nth-child(10) strong a, #content table.room_rows tbody td:nth-child(14) strong a {
+        background: rgba(17, 55, 71, 0);
+        color: #000;
+    }
+
+    #content .title {
+        font-size: 1em;
+        font-weight: normal;
+        line-height: normal;
+    }
+
+    #content .field label {
+      font-size: 16px;
+      font-weight: normal;
+      margin-right: 0px;
+      width: 34%;
+    }
+
+    .field .data {
+      float: right;
+      width: 65%;
+      font-size: 18px;
+      line-height: normal;
+      padding-bottom: 12px;
+      font-weight: 100;
+    }
+
+    #content .event_block .event_name {
+      font-size: 0.9em;
+      font-weight: bold;
+    }
+
+    table.schedule td .presentation {
+      font-size: 2.0em;
+      line-height: 1.25em;
+    }
+
+    table {
+      border: 0;
+      max-width: 100%;
+      width: 90%;
+      margin: auto;
+    }
+
+    table thead {
+      display: none;
+    }
+
+    table tr {
+      margin-bottom: 10px;
+      display: block;
+      border-bottom: 2px solid #ddd;
+    }
+
+    table td {
+      display: block;
+      text-align: center;
+      font-size: 13px;
+      border-bottom: 1px dotted #ccc;
+    }
+
+    table td:last-child {
+      border-bottom: 0;
+    }
+
+    table td:before {
+      content: attr(data-label);
+      float: left;
+      text-transform: uppercase;
+      font-weight: bold;
+    }
+    #content table.time_rows tbody tr:nth-of-type(1) strong a {
+        display: none;
+    }
+  }
+"
+BarCamp Philly 2018,https://2018.barcampphilly.org/,https://2018.barcampphilly.org/images/bcp-dial-control.svg,2018-11-03 23:46:36.860085,2018-11-04 06:23:54.415567,11th Annual Philadelphia BarCamp (Turn it up!),"@import url(http://fonts.googleapis.com/css?family=Dosis:200,400);
+@font-face{
+  font-weight:100;
+  font-style:normal;
+  font-family:'whitney-htf-light';
+  src:url('https://2015.barcampphilly.org/fonts/whitneyhtf-light-webfont.woff2');
+}
+
+body, body #header, body #footer {
+  color: black;
+  width: 98%;
+  font-family: 'whitney-htf-light', sans-serif;
+  font-size: 1em;
+  background-color: #fff;
+  margin: auto 10px auto 10px;
+}
+
+body #dialog_box {
+  height: inherit;
+}
+
+body #header .menu_item {
+  margin: 0;
+  padding: 3px 10px 3px 10px;
+  background-color: #607023;
+}
+body #header .menu_item a,
+body #footer a {
+  color: black;
+}
+
+body #content {
+  background: #FFFFFF;
+  color: black;
+  display: inherit;
+  float: left;
+  margin: 0;
+  width: 100%;
+  padding: 10px 0;
+}
+
+#content {
+  width: 100%;
+}
+
+.presentation strong {
+  font-weight: 200;
+  font-style: normal;
+}
+
+#content a, #content a:visited  {
+  color: #617133;
+}
+#content a:hover  {
+  color: rgba(173, 127, 16, 1);
+}
+#content table.schedule th {
+  font-size: 0.85em;
+  line-height: 0.975em;
+  font-weight: initial;
+}
+#content table.schedule th, #content table.schedule td {
+  padding: 0,6px;
+}
+#content table {
+  width: 100%;
+}
+
+#content .event_block .logo {
+  width: inherit;
+  right: 4%;
+  max-width: 120px;
+}
+
+#content .event_block .logo img {
+    max-width: 120px;
+   max-height: 120px;
+background-image: url(https://2018.barcampphilly.org/images/bcp-dial-numbers.svg);
+background-size: contain;
+}
+
+#content .event_block, #content table.schedule th {
+  border: none;
+  background-image: none;
+  -webkit-box-shadow: none;
+  -webkit-border-radius: 0;
+  border-radius: 0;
+}
+
+body #content .event_block {
+    background-image: none;
+    background-image: none;
+    background-image: url(https://2018.barcampphilly.org/images/bkg-hero.svg);
+    background-color: rgba(255, 255, 255, 0);
+    border: none;
+    padding: 5px;
+    clear: both;
+    min-height: 120px;
+}
+
+body #content .presentation {
+    background-image: none;
+    background-image: none;
+    background-image: none;
+    background-color: rgba(0, 0, 0, 0.0);
+    border-top: 0.75px solid rgba(0, 0, 0, 0);
+}
+
+#content .title {
+    line-height: normal;
+    padding-bottom: 10px;
+    color: #133546;
+}
+
+#content table.schedule {
+  /* background-color: rgba(13,16,23,.5); */
+  margin:auto;
+}
+#content table.schedule th, #content table.schedule th a {
+  color: black;
+}
+#content table.schedule tr.sorting:nth-child(odd) th {
+  color: black;
+}
+#content table.room_rows tr.sorting th, #content table.room_rows th a {
+  background-color: #c577ae;
+  background-color: #8cd4dc;
+}
+#content table.time_rows thead th:nth-child(3), #content table.time_rows thead th:nth-child(4), #content table.time_rows thead th:nth-child(5), #content table.time_rows thead th:nth-child(7), #content table.time_rows thead th:nth-child(8), #content table.time_rows thead th:nth-child(9) {
+  border-left: #f8f3e5;
+}
+#content table.room_rows tbody td:nth-child(2), #content table.room_rows tbody td:nth-child(6), #content table.room_rows tbody td:nth-child(10) {
+  background: rgba(17, 55, 71, 0.75);
+}
+#content table.time_rows tr:nth-child(even) th:nth-child(1), #content table.time_rows tr:nth-child(even) td:nth-child(2), #content table.time_rows tr:nth-child(even) td:nth-child(3), #content table.time_rows tr:nth-child(even) td:nth-child(4), #content table.time_rows tr:nth-child(even) td:nth-child(5), #content table.time_rows tr:nth-child(even) td:nth-child(6), #content table.time_rows tr:nth-child(even) td:nth-child(7), #content table.time_rows tr:nth-child(even) td:nth-child(8), #content table.time_rows tr:nth-child(even) td:nth-child(9), #content table.time_rows tr:nth-child(even) td:nth-child(10), #content table.time_rows tr:nth-child(even) td:nth-child(11), #content table.time_rows tr:nth-child(even) td:nth-child(12), #content table.time_rows tr:nth-child(even) td:nth-child(13), #content table.time_rows tr:nth-child(even) td:nth-child(14), #content table.time_rows tr:nth-child(even) td:nth-child(15), #content table.time_rows tr:nth-child(even) td:nth-child(16) {
+  background: rgba(17, 55, 71, 0.75);
+  color: white;
+}
+#content table.room_rows tr:nth-child(even) td:nth-child(3), #content table.room_rows tr:nth-child(even) td:nth-child(4), #content table.room_rows tr:nth-child(even) td:nth-child(5), #content table.room_rows tr:nth-child(even) td:nth-child(7), #content table.room_rows tr:nth-child(even) td:nth-child(8), #content table.room_rows tr:nth-child(even) td:nth-child(9) {
+  background: rgba(50, 87, 109, 0.65);
+}
+
+#content table.room_rows tr.sorting th, #content table.room_rows tr.sorting th a {
+    background-color: rgba(0, 0, 0, 0);
+}
+
+#content table.room_rows tr:nth-of-type(even) th {
+    background-color: rgba(50, 87, 109, 0.65);
+}
+
+#content table.schedule tr th:nth-child(3), #content table.schedule tr th:nth-child(4), #content table.schedule tr th:nth-child(7), #content table.schedule tr th:nth-child(8) {
+  border-right: 1px solid #113747;
+}
+#content table.schedule tr td:nth-child(3), #content table.schedule tr td:nth-child(4), #content table.schedule tr td:nth-child(7), #content table.schedule tr td:nth-child(8) {
+  border-right: 1px solid #113747;
+}
+#content table.schedule tbody td {
+  border: none;
+  padding: 0, 0.5%;
+}
+
+#content .event_block .event_name {
+  color: #133546;
+  font-variant: normal;
+  font-family: 'whitney-htf-light', sans-serif;
+}
+#content table.schedule td, #content table.schedule td a {
+  color: black;
+  font-family: 'whitney-htf-light', sans-serif;
+}
+
+#content table.room_rows td:nth-child(4n+2) div strong a,
+#content table.room_rows td:nth-child(6) div strong a,
+#content table.room_rows td:nth-child(10) div strong a,
+#content table.time_rows tbody tr:nth-of-type(1) strong a {
+  pointer-events: none;
+  text-decoration: none;
+  color: #5e5e5e;
+}
+
+#content table.true {
+  pointer-events: auto;
+  text-decoration: auto;
+}
+
+.field .data {
+  width: 65%;
+}
+
+form label {
+  color: black;
+}
+
+  @media screen and (max-width: 600px) {
+
+    body {
+      font-size: 1.5em;
+      line-height: 1.25em;
+      margin: 0;
+    }
+
+    body #header, body #footer {
+      font-size: 11px;
+    }
+
+    body #footer {
+      line-height: 17px;
+      text-align: center;
+      margin: 0;
+      padding: 10px;
+    }
+
+    body #content {
+        margin: 0 10px;
+    }
+
+    body #content .event_block {
+        min-height: 20px;
+    }
+
+    body #content .event_block {
+        margin: 0 10px;
+    }
+
+    #content .event_block .logo {
+       max-width: 60px;
+    }
+
+    #content .event_block .logo img {
+       width: 75%;
+    }
+
+    #content table.time_rows tbody td:nth-child(2), #content table.time_rows tbody td:nth-child(6), #content table.time_rows tbody td:nth-child(10), #content table.time_rows tbody td:nth-child(14) {
+      background-color: rgba(17, 55, 71, 0);
+    }
+
+    #content table.time_rows tr:nth-of-type(odd) td {
+      background-color: rgba(17, 55, 71, 0.75);
+    }
+    #content table.time_rows tr td:nth-of-type(odd) {
+      background-color: rgba(0, 0, 0, 0);
+        border-top: 0.75px solid rgba(17, 55, 71, 0.75);
+      opacity: 0.75;
+    }
+
+    #content table.time_rows tr:nth-child(even) th:nth-child(1) {
+        background: #8cd4dc;
+    }
+
+    #content table.room_rows tbody td:nth-child(2) strong a, #content table.room_rows tbody td:nth-child(6) strong a, #content table.room_rows tbody td:nth-child(10) strong a, #content table.room_rows tbody td:nth-child(14) strong a {
+        background: rgba(17, 55, 71, 0);
+        color: #000;
+    }
+
+    #content .title {
+        font-size: 1em;
+        font-weight: normal;
+        line-height: normal;
+    }
+
+    #content .field label {
+      font-size: 16px;
+      font-weight: normal;
+      margin-right: 0px;
+      width: 34%;
+    }
+
+    .field .data {
+      float: right;
+      width: 65%;
+      font-size: 18px;
+      line-height: normal;
+      padding-bottom: 12px;
+      font-weight: 100;
+    }
+
+    #content .event_block .event_name {
+      font-size: 0.9em;
+      font-weight: bold;
+    }
+
+    table.schedule td .presentation {
+      font-size: 2.0em;
+      line-height: 1.25em;
+    }
+
+    table {
+      border: 0;
+      max-width: 100%;
+      width: 90%;
+      margin: auto;
+    }
+
+    table thead {
+      display: none;
+    }
+
+    table tr {
+      margin-bottom: 10px;
+      display: block;
+      border-bottom: 2px solid #ddd;
+    }
+
+    table td {
+      display: block;
+      text-align: center;
+      font-size: 13px;
+      border-bottom: 1px dotted #ccc;
+    }
+
+    table td:last-child {
+      border-bottom: 0;
+    }
+
+    table td:before {
+      content: attr(data-label);
+      float: left;
+      text-transform: uppercase;
+      font-weight: bold;
+    }
+    #content table.time_rows tbody tr:nth-of-type(1) strong a {
+        display: none;
+    }
+  }
+"
+ProInspire Summit 2019,https://www.proinspire.org,https://www.proinspire.org/wp-content/uploads/2019/02/PI-logo-tagline.png,2019-02-13 20:57:02.941647,2019-04-19 17:12:07.1148,,"/* V 1.0 */
+
+body, body #header, body #footer {
+  color: black;
+  width: 100%;
+  font-family: proxima-nova, sans-serif, -apple-system, BlinkMacSystemFont, ""Segoe UI"", ""Roboto"", ""Oxygen"", ""Ubuntu"", ""Cantarell"", ""Fira Sans"", ""Droid Sans"", ""Helvetica Neue"", sans-serif;
+  font-size: 1em;
+  background-color: white;
+  margin: auto 0px auto 0px;
+}
+
+body #dialog_box {
+  height: inherit;
+}
+
+body #header {
+  margin: 0;
+  width: 98%;
+}
+
+body #header .menu_item {
+  margin: 0;
+  padding: 3px 10px 3px 10px;
+}
+
+body #header, body #header .menu_item a {
+    background-color: #00bbb4;
+    color: white;
+}
+
+body #footer a {
+  color: black;
+}
+
+body #content {
+  color: black;
+  display: inherit;
+  float: left;
+  margin: 10px;
+  width: 98%;
+  padding: 10px 0;
+}
+
+.presentation strong {
+  font-weight: 200;
+  font-style: normal;
+}
+
+#content table.schedule th {
+  font-size: 0.85em;
+  line-height: 0.975em;
+  font-weight: initial;
+}
+#content table.schedule th, #content table.schedule td {
+  padding: 0,6px;
+}
+#content table {
+  width: 100%;
+}
+
+#content .event_block .logo {
+  width: inherit;
+  right: 1%;
+  max-width: 100px;
+}
+
+#content .event_block .logo img {
+    width: 100%;
+    max-width: 100px;
+}
+
+#content .event_block, #content table.schedule th {
+  border: none;
+  background-image: none;
+  -webkit-box-shadow: none;
+  -webkit-border-radius: 0;
+  border-radius: 0;
+}
+
+body #content .event_block {
+    background-image: none;
+    background-image: none;
+    background-image: none;
+    background-color: rgba(255, 255, 255, 0);
+    border: none;
+    padding: 5px;
+    clear: both;
+    min-height: 100px;
+}
+
+body #content .presentation {
+    background-image: none;
+    background-image: none;
+    background-image: none;
+    background-color: rgba(0, 0, 0, 0.0);
+    border-top: 0.75px solid rgba(0, 0, 0, 0);
+}
+
+#content table.schedule {
+  /* background-color: rgba(13,16,23,.5); */
+  margin:auto;
+}
+#content table.schedule th, #content table.schedule th a {
+  background-color: #ff6c0e;
+  color: white;
+  font-weight: bolder;
+}
+#content table tr:nth-child(even) td {
+  background: #fdd756;
+}
+
+#content table.schedule tr th {
+  border-right: 1px solid #113747;
+}
+#content table.schedule tr td {
+  border-right: 1px solid #113747;
+}
+#content table.schedule tbody td {
+  border: none;
+  padding: 0, 0.5%;
+}
+
+#content .event_block .event_name {
+  color: #133546;
+  font-variant: normal;
+}
+#content table.schedule td, #content table.schedule td a {
+  color: black;
+}
+
+#content table.true {
+  pointer-events: auto;
+  text-decoration: auto;
+}
+
+.field .data {
+  width: 65%;
+}
+
+form label {
+  color: black;
+}
+
+  @media screen and (max-width: 600px) {
+
+    body {
+      font-size: 1.5em;
+      line-height: 1.25em;
+      margin: 0;
+    }
+
+    body #header, body #footer {
+      font-size: 11px;
+    }
+
+    body #footer {
+      line-height: 17px;
+      text-align: center;
+      margin: 0;
+      padding: 10px;
+    }
+
+    body #content {
+        margin: 0 10px;
+    }
+
+    body #content .event_block {
+        min-height: 20px;
+    }
+
+    body #content .event_block {
+        margin: 0 10px;
+    }
+
+    #content .event_block .logo {
+       max-width: 60px;
+    }
+
+    #content .event_block .logo img {
+       width: 75%;
+    }
+
+    #content .title {
+        font-size: 1em;
+        font-weight: normal;
+        line-height: normal;
+    }
+
+    #content .field label {
+      font-size: 16px;
+      font-weight: normal;
+      margin-right: 0px;
+      width: 34%;
+    }
+
+    .field .data {
+      float: right;
+      width: 65%;
+      font-size: 18px;
+      line-height: normal;
+      padding-bottom: 12px;
+      font-weight: 100;
+    }
+
+    #content .event_block .event_name {
+      font-size: 0.9em;
+      font-weight: bold;
+    }
+
+    table.schedule td .presentation {
+      font-size: 2.0em;
+      line-height: 1.25em;
+    }
+
+    table {
+      border: 0;
+      max-width: 100%;
+      width: 90%;
+      margin: auto;
+    }
+
+    table thead {
+      display: none;
+    }
+
+    table tr {
+      margin-bottom: 10px;
+      display: block;
+      border-bottom: 2px solid #ddd;
+    }
+
+    table td {
+      display: block;
+      text-align: center;
+      font-size: 13px;
+      border-bottom: 1px dotted #ccc;
+    }
+
+    table td:last-child {
+      border-bottom: 0;
+    }
+
+    table td:before {
+      content: attr(data-label);
+      float: left;
+      text-transform: uppercase;
+      font-weight: bold;
+    }
+    #content table.time_rows tbody tr:nth-of-type(1) strong a {
+        display: none;
+    }
+  }
+"
