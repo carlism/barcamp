@@ -2,15 +2,16 @@ defmodule Barcamp.Schedule.Presentation do
   use Ecto.Schema
   import Ecto.Changeset
 
-
   schema "presentations" do
-    field :contact, :string
-    field :description, :string
-    field :format, :string
-    field :presenter, :string
-    field :title, :string
-    field :room_id, :id
-    field :time_slot_id, :id
+    field(:contact, :string)
+    field(:description, :string)
+    field(:format, :string)
+    field(:presenter, :string)
+    field(:title, :string)
+
+    belongs_to(:room, Barcamp.Schedule.Room)
+    belongs_to(:time_slot, Barcamp.Schedule.TimeSlot)
+    belongs_to(:event_date, Barcamp.Schedule.EventDate)
 
     timestamps()
   end

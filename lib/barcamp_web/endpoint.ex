@@ -1,6 +1,8 @@
 defmodule BarcampWeb.Endpoint do
   use Phoenix.Endpoint, otp_app: :barcamp
 
+  socket("/live", Phoenix.LiveView.Socket)
+
   socket("/socket", BarcampWeb.UserSocket,
     websocket: true,
     longpoll: false

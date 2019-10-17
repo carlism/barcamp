@@ -14,7 +14,10 @@ config :barcamp, BarcampWeb.Endpoint,
   url: [host: "localhost"],
   secret_key_base: "Ny+JOdPenM9wcq7dFCIltS3wgCgLKcWHjqGpHXZ3KHpZ027TaiNXakB0vj3r7jUW",
   render_errors: [view: BarcampWeb.ErrorView, accepts: ~w(html json)],
-  pubsub: [name: Barcamp.PubSub, adapter: Phoenix.PubSub.PG2]
+  pubsub: [name: Barcamp.PubSub, adapter: Phoenix.PubSub.PG2],
+  live_view: [
+    signing_salt: "EvT9tBTbAat/Ryhkd+7yO3Q4RMUm5eN7"
+  ]
 
 # Configures Elixir's Logger
 config :logger, :console,

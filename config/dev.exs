@@ -11,8 +11,14 @@ config :barcamp, BarcampWeb.Endpoint,
   debug_errors: true,
   code_reloader: true,
   check_origin: false,
-  watchers: [node: ["node_modules/brunch/bin/brunch", "watch", "--stdin",
-                    cd: Path.expand("../assets", __DIR__)]]
+  watchers: [
+    node: [
+      "node_modules/brunch/bin/brunch",
+      "watch",
+      "--stdin",
+      cd: Path.expand("../assets", __DIR__)
+    ]
+  ]
 
 # ## SSL Support
 #
@@ -37,7 +43,8 @@ config :barcamp, BarcampWeb.Endpoint,
       ~r{priv/static/.*(js|css|png|jpeg|jpg|gif|svg)$},
       ~r{priv/gettext/.*(po)$},
       ~r{lib/barcamp_web/views/.*(ex)$},
-      ~r{lib/barcamp_web/templates/.*(eex)$}
+      ~r{lib/barcamp_web/templates/.*(eex)$},
+      ~r{lib/barcamp_web/live/.*(ex)$}
     ]
   ]
 
@@ -60,4 +67,3 @@ config :barcamp, Barcamp.Repo,
 config :barcamp, BarcampWeb.Guardian.Tokenizer,
   issuer: "barcamp",
   secret_key: "our random string"
-                

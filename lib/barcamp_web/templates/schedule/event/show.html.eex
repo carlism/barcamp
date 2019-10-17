@@ -1,5 +1,12 @@
-<img style="float:left" src="<%= @event.image_url %>">
+<img style="float:left" src="<%= @event.image_url %>" height="50px">
 
 <%= @event.name %><br>
 <%= @event.description %><br>
 <%= @event.site_url %>
+<ul id="event_dates">
+    <%= for event_date <- @event.event_dates do %>
+    <li><%=event_date.event_date%></li>
+    <% end %>
+</ul>
+
+<%= live_render(@conn, BarcampWeb.PresentationGridView, session: %{event_date: hd(@event.event_dates)}) %>
