@@ -11,7 +11,17 @@ jobs:
         elixir: [1.9.x]
 
     runs-on: ubuntu-latest
-
+    
+    services:
+        postgres:
+          image: postgres
+          ports:
+            - 5432:5432
+          env:
+            POSTGRES_PASSWORD: postgres
+            POSTGRES_USER: postgres
+          options: --health-cmd pg_isready --health-interval 10s --health-timeout 5s --health-retries 3
+          
     steps:
     - uses: actions/checkout@v1
     - uses: actions/setup-elixir@v1.0.0
