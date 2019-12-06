@@ -5,3 +5,8 @@ otp_release:
     - '22.0'
 os: 
     - linux
+services:
+    - postgresql
+before_script:
+    - cp config/travis.exs config/test.exs
+    - psql -c 'create database barcamp_test;' -U postgres
