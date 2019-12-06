@@ -12,7 +12,11 @@
 <%= for event <- @events do %>
     <tr>
       <td><img height="50" src="<%= event.image_url %>"></td>
-      <td><%= link event.name, to: schedule_event_path(@conn, :show, event), class: "btn btn-default btn-xs" %></td>
+      <td><%= link event.name, to: schedule_event_path(@conn, :show, event), class: "btn btn-default btn-xs" %>
+      <%= if not is_nil current_user(@conn) do %>
+        <%= link "edit", to: schedule_event_path(@conn, :edit, event), class: "btn btn-default btn-xs" %>
+      <% end %>
+      </td>
       <td><%= event.description %><p><%= event.site_url %></td>
     </tr>
 <% end %>
