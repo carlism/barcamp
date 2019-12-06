@@ -1,4 +1,6 @@
-# Barcamp
+# Barcamp  
+
+[![Build Status](https://travis-ci.org/carlism/barcamp.svg?branch=master)](https://travis-ci.org/carlism/barcamp)
 
 To start your Phoenix server:
 
